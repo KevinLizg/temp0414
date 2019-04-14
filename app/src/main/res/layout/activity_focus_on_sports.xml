@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FocusOnSportsActivity">
+
+    <Chronometer
+        android:id="@+id/tick_Sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计时器"
+        android:textSize="40sp"/>
+
+
+    <Button
+        android:id="@+id/mapDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地图导航"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/compassDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指南针"
+        android:textSize="25sp"/>
+
+</LinearLayout>

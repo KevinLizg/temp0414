@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.focusassistant">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".WriteNoteActivity"
+            android:label="写下自己的笔记"></activity>
+        <activity
+            android:name=".NoteListActivity"
+            android:label="笔记总览"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".ChangePersonalInformationActivity"
+            android:label="修改个人信息" />
+        <activity
+            android:name=".CompassActivity"
+            android:label="指南针" />
+        <activity
+            android:name=".ProductionActivity"
+            android:label="产品信息" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="历史记录" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="g7f3YHI6Vi4lXADRyF8La1sXPckvhDmk" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:label="计算器" />
+        <activity
+            android:name=".MapActivity"
+            android:label="地图导航" />
+        <activity
+            android:name=".PersonalInformationActivity"
+            android:label="个人信息" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="专注反馈" />
+        <activity
+            android:name=".FocusOnMeetingActivity"
+            android:label="专注会议" />
+        <activity
+            android:name=".FocusOnSportsActivity"
+            android:label="专注运动" />
+        <activity
+            android:name=".FocusOnStudyActivity"
+            android:label="专注学习" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
