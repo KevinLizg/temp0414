@@ -261,6 +261,7 @@ public class MainActivity extends AppCompatActivity {
                     isExit= false;
                 }
             }, 2000);
+            Toast.makeText(this, "hha", Toast.LENGTH_SHORT).show();
         }
 
     }
