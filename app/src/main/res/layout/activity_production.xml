@@ -1,15 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView
     android:layout_height="match_parent"
-    tools:context=".ProductionActivity">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:fontFamily="华文彩云"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="这是一款帮助使用者专注的app"/>
+        android:layout_height="match_parent"
+        tools:context=".ProductionActivity"
+        android:padding="26dp">
 
-</LinearLayout>
+        <TextView
+            android:fontFamily="华文彩云"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="产品目的是为帮助使用者专注。产品专注类型分为三个方面：学习、会议及其运动。\n
+    1.进入产品，点击开始专注即可选择专注项目：\n
+    #IMAGE 主界面\n
+    点击之后进行选择：\n
+    #IMAGE 选择界面\n
+    ·选择运动界面后：\n
+    #IMAGE 运动界面\n
+    点击地图可进行定位：\n
+    #IMAGE 地图界面\n
+    ·选择学习界面后：\n
+    #IMAGE 学习界面\n
+    点计算器可进行简单计算：\n
+    #IMAGE 计算器界面\n
+    ·选择会议界面后：\n
+    #IMAGE 会议界面\n
+    点击静音可将手机调成静音震动模式：\n
+    #IMAGE 静音界面\n
+    点击笔记功能可记笔记：\n
+    #IMAGE 笔记界面\n
+
+    2.设置时间后可查看专注成功与否和回顾历史专注：\n
+    #IMAGE 完成专注界面\n
+    #IMAGE 回顾历史专注界面\n
+    3.侧滑菜单或点击左上角菜单可查看个人信息，历史记录，会议笔记和产品介绍：\n
+    点击个人信息可进行编辑个人信息（姓名和爱好等）：\n
+    #IMAGE 个人信息界面\n
+    点击历史记录可查看历史专注项目，成功与否和专注时间：\n
+    #IMAGE 历史记录\n
+    点击会议笔记可查看记录笔记历史可进行编辑等：\n
+    #IMAGE 会议笔记\n
+    点击产品介绍可查看产品使用说明：\n
+    #IMAGE 产品使用说明\n
+"/>
+
+
+    </LinearLayout>
+</ScrollView>

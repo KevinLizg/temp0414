@@ -21,4 +21,17 @@
         android:text="写笔记"
         android:textSize="25sp"/>
 
+    <Button
+        android:id="@+id/muteoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="静音并开启震动"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/muteon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭静音"
+        android:textSize="25sp"/>
 </LinearLayout>
